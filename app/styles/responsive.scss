@@ -1,0 +1,213 @@
+@media (min-width: 1200px){
+	.container{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1024px){
+	.container{
+		width: 100%;
+	}
+	
+	.ys-content-page{
+		.ys-content-inicio{
+			.ys-layer-video{
+				display: none;
+			}
+			#ys-video-bck{
+				display: none;
+			}
+			.jumbotron{
+				margin-top: 45%;
+			}
+		}
+		.ys-seccion#servicios{
+			.ys-content-servicio{
+				.ys-puntos{
+					display: none;
+				}
+			}
+		} 
+	}
+}
+
+@media (max-width: 768px){
+	.ys-content-page{
+		.ys-content-redes{
+			height: 100%;
+			max-width: 20px;
+			
+			.ys-content-nombre{
+				span{
+					margin-left: 11px;
+				}
+			}
+			.ys-content-icons{
+				left: 1px;
+
+				span{
+					&:nth-of-type(1),
+					&:nth-of-type(2)
+					{
+						margin-bottom: 2em;
+					}
+					
+					a{
+						i{
+							font-size: 1.1em;
+						}
+					}
+				}
+			}
+			.ys-lineas-sep{
+				min-height: 170px;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px){
+	body{
+		font-size: 13px;
+	}
+	.ys-content-page{
+		.ys-seccion{
+			&#nosotros{
+				.ys-content-3imgs{
+					.ys-itemfoto{
+						margin-bottom: 15px;
+						width: 80%;
+						.ys-lnk{
+							margin-top: 10px;
+						}
+					}
+				}
+			}
+			
+			.ys-content-servicio{
+				.ys-servicio-right .ys-subtitulo,
+				.ys-servicio-left .ys-subtitulo{
+					display: none;
+				}
+				.ys-subtitulo-min{
+					display: block !important;
+				}
+				.ys-content-info{
+					padding-top: 3em;
+				}
+			}
+
+			&#trabajos{
+				.ys-content-liga{
+					.ys-btn{
+						display: none;
+					}
+				}
+				
+				.ys-content-galeriaVideos{
+					#video-gallery{
+						& > a{
+							width: 30%;
+						}	
+					} 
+				}
+
+				.ys-content-galeriaImagenes{
+					.ys-lista-imagenes{
+						 ul{
+						 	li{
+						 		width: 32%;
+						 	}	
+					 	} 
+					}
+				}
+			}
+			&#contacto{
+				.ys-subtitulo{
+					font-size: 2.5em;
+				}
+			}
+		}
+		.ys-content-inicio{
+			.jumbotron{
+				border: none;
+				margin-top: 55%;
+
+				.ys-content-area{
+					margin-top: 10px;
+					span{
+						display: block;
+						text-align: center;
+						&.ys-txt{
+							a{
+								font-size: 12px;
+							}
+						}
+						&.ys-iconfont{
+							margin-top: 10px;
+						}
+					}
+				}
+
+			}
+		}
+		.ys-content-nav{
+			.navbar{
+				padding: 0;
+				.navbar-header{
+					.navbar-brand{
+						img{
+							width: 150px;
+						}
+					}
+				}
+				.navbar-collapse{
+					.navbar-nav{
+						width: 100%;
+					}
+				}
+			}
+		}
+		/*.ys-content-redes{
+			height: 100%;
+			max-width: 20px;
+			
+			.ys-content-nombre{
+				span{
+					margin-left: 11px;
+				}
+			}
+			.ys-content-icons{
+				left: 1px;
+
+				span{
+					&:nth-of-type(1),
+					&:nth-of-type(2)
+					{
+						margin-bottom: 2em;
+					}
+					
+					a{
+						i{
+							font-size: 1.1em;
+						}
+					}
+				}
+			}
+			.ys-lineas-sep{
+				min-height: 170px;
+			}
+		}*/
+	} 
+}
+
+
+@media (min-width: 1200px){
+	.carousel{
+		float: right;
+		max-width: 480px;
+		&#myCarouselInfografia{
+			float: left;
+		}		
+	}
+}
